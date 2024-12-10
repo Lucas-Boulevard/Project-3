@@ -1,0 +1,103 @@
+body{
+    background-color: #141519;
+    font-family: "Overpass", sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+.container{
+    width: 80%;
+    margin: 60% auto;
+    background-color: #212832;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+p{
+    color : #979da9;
+}
+
+.img1{
+    position: relative;
+    top: 0.8em;
+    background-color: #191d24;
+    padding: 0.6em;
+    border-radius: 50%;
+}
+
+.img2{
+    display: block;
+    margin: 1.5em auto;
+
+}
+
+.center{
+    text-align: center;
+}
+
+menu{
+    padding: 0;
+}
+
+.btn1{
+    text-align: center;
+    background-color: #333333;
+    border-radius: 100%;
+    margin: .2rem;
+    padding: 1em 1.4em;
+    margin-bottom: 1em;
+    border: none;
+    color: #979da9;
+}
+
+.btn1:hover{
+    background-color: #fc7613;
+    color: #212832;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn2{
+    margin-top: 3em;
+    background-color: #fc7613;
+    border-radius: 1.6em;
+    margin: auto;
+    display: block;
+    color: #212832;
+}
+
+.btn2:hover{
+    background-color: white;
+}
+
+.selected{
+    text-align: center;
+    color: #fc7613;
+    background-color: #979da9;
+    border-radius: 1em;
+}
+
+.changecolor{
+    background-color: white;
+    color: #212832;
+}
+
+@media only screen and (min-width: 1440px) {
+    .container{
+        width: 20%;
+        margin: 3em auto;
+        padding: 1em;
+    }
+
+    menu{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .btn2{
+        padding: 1em 9em 1em 9em;
+    }
+}
